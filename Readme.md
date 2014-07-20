@@ -11,3 +11,12 @@ Lots of boundaries of knowledge to move outward.
 
 If someone can help me figure out correct bundling for processing, react-art/react-art-cljs to have this nice 
 and tidy done with leiningen and lein-cljsbuild i would be grateful. Otherwise it stays like it is.
+
+
+Running
+-------
+
+This project uses leiningen
+
+ * launch web server in project directory e.g ``lein simpleton 9000`` for [lein-simpleton](https://github.com/tailrecursion/lein-simpleton) users
+ * run ``lein cljsbuild auto`` to automatically rebuild everything
